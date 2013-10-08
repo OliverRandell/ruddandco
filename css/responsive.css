@@ -1,0 +1,73 @@
+// These are the responsive styles for Rudd & Co website
+
+@media screen and (max-width: 768px) {
+	.slides li h2 {
+		font-size: 34px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	section {
+		padding: 0 20px;
+		width: auto;
+	}
+	.container {
+		width: auto;
+	}
+	.flexslider {
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 864px) {
+
+	.fifty-fifty {
+		margin: 0 auto 60px;
+		text-align: center;
+		width: 100%;
+	}
+	.fifty-fifty p {
+		margin: 0 auto;
+		width: 62%;
+	}
+	.sticky {
+		position: relative;
+	}
+	/* This needs looking into */
+}
+
+@media screen and (max-width: 480px) {
+	.slides li h2 {
+		letter-spacing: 1px;
+		font-size: 22px;
+		left: 0;
+		right: 0;
+		text-align: center;
+		top: 28%;
+		padding: 0 44px;
+	}
+	nav {
+		padding-left: 2em;
+		padding-right: 2em;
+		text-align: center;
+	}
+	.fifty-fifty img {
+		width: 100%;
+		height: auto;
+	}
+	fieldset {
+		width: 100%;
+	}
+	legend {
+		text-align: center;
+	}
+	input {
+		width: 100%;
+	}
+	textarea {
+		width: 100%;
+	}
+	footer {
+		font-size: 11px;
+	}
+}

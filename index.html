@@ -149,16 +149,16 @@
 	    		<h1>Contact us</h1>
 	    	</header>
 
-	    	<form>
+	    	<form id="contact-form" method="post" action="email.php">
 	    		<fieldset>
 	    			<legend>Fill out your details below:</legend>
 	    			<label for="from">Name:</label>
-	    			<input type="text" id="from" name="from" placeholder="Joe Bloggs..." />
+	    			<input type="text" id="from" name="name" placeholder="Joe Bloggs..." />
 	    			<label>Email address:</label>
-	    			<input type="email" placeholder="example@example.com" />
+	    			<input type="email" name="email" placeholder="example@example.com" />
 	    			<label for="message">Message:</label>
 	    			<textarea name="message" rows="12" cols="40"></textarea>
-	    			<button type="submit" class="btn">Submit</button>
+	    			<button type="submit" class="btn" >Submit</button>
 
 	    		</fieldset>
 	    	</form>
@@ -179,6 +179,7 @@
 	<script src="js/jquery.scrollTo-1.4.2-min.js" type="text/javascript"></script>
 	<script src="js/waypoints.min.js" type="text/javascript"></script>
 	<script src="js/navbar2.js" type="text/javascript"></script>
+	<script src="js/site.js" type="text/javascript"></script>
 	<script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
 	<script type="text/javascript">
 		$(window).load(function() {
